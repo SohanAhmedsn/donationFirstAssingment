@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top_header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('images/donationTopBanner.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    padding: 110px 50px;
+}
+
+.heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+/* CSS */
+
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #c3413d;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+
+/* second section -> donate today  */
+
+#donate_today {
+    margin: auto;
+    width: 50%;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+.donate_heading {
+    text-align: center;
+    padding: 10px;
+    word-wrap: wrap;
+}
+
+.donate_heading p {
+    color: #231f1ff7;
+}
+
+.donate_amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.donation_tk {
+    border: 1px solid #f7d8d8;
+    margin: 2px;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.donation_tk p {
+    padding: 10px;
+}
+
+.modified_donation_tk {
+    background-color: #fceded;
+    color: #ff0000f6;
+}
+
+.other_amount {
+    text-align: center;
+    padding-top: 25px;
+    margin: 0;
+    color: #796262;
+    font-size: 12px;
+}
+
+hr {
+    margin: 0;
+}
+
+
+/* donate plan  */
+
+.our_donate_plan {
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.donate_plan {
+    color: #796262;
+    text-align: center;
+}
+
+.donate_plan p {
+    word-wrap: wrap;
+}
+
+.donate_plan_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding: 10px;
+}
+
+#donate_btn button {
+    text-align: center;
+}
+
+.basic_needs {
+    border: 1px solid #fff4e6;
+    padding: 10px;
+    margin: 10px;
+    color: #3d3636;
+    word-wrap: wrap;
+}
+
+.basic_needs h4 {
+    font-family: 10px;
+}
+
+.basic_needs p {
+    font-family: 6px;
+}
+
+#food {
+    background-color: #a0ebf7;
+    color: #564747;
+}
+
+#education {
+    background-color: #fad7d7;
+}
+
+#shelter {
+    background-color: #526b6572;
+}
+
+
+/* live depend donation  */
+
+.live_donation_section {
+    background-color: white;
+    padding: 20px;
+}
+
+.live_depend_donation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    word-wrap: wrap;
+}
+
+.how_donation img {
+    width: 100%;
+}
+
+.live_donation_heading h2 {
+    text-align: justify;
+    color: #483939;
+    word-wrap: wrap;
+}
+
+.live_donation_heading p {
+    text-align: left;
+    color: #483939;
+    font-size: 12px;
+    word-wrap: wrap;
+    padding-right: 13px;
+}
+
+
+/* get my update  */
+
+.getMyUpdate {
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.Subscribe {
+    margin-right: 20px;
+    background-color: #f72f5754;
+    color: gray;
+    padding-left: 10px;
+    color: white;
+}
+
+.mailSection {
+    background-color: #f7d8d8;
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+}
+
+input {
+    padding: 10px;
+    border: 0;
+}
+
+.spanInputEmail {
+    margin: 0;
+    padding: 0px;
+    background-color: #f7caca;
+}
+
+.spanInputForm {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* footer section  */
+
+.ft_section {
+    padding: 2px;
+    margin: auto;
+    width: 100%;
+}
+
+.footer_section {
+    background-color: #131214;
+    padding: 35px;
+    color: white;
+    text-align: center;
+}
